@@ -1,4 +1,4 @@
-package com.hiagosouza.api.model;
+package com.hiagosouza.api_santander.model;
 
 import jakarta.persistence.*;
 import java.util.List;
@@ -19,7 +19,7 @@ public class User {
   private Card card;
 
   @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-  private List<Features> features;
+  private List<Feature> features;
 
   @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
   private List<News> news;
@@ -56,11 +56,11 @@ public class User {
     this.card = card;
   }
 
-  public List<Features> getFeatures() {
+  public List<Feature> getFeatures() {
     return features;
   }
 
-  public void setFeatures(List<Features> features) {
+  public void setFeatures(List<Feature> features) {
     this.features = features;
   }
 

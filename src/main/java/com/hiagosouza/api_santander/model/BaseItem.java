@@ -1,4 +1,4 @@
-package com.hiagosouza.api.model;
+package com.hiagosouza.api_santander.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
