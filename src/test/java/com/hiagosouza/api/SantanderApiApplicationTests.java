@@ -1,4 +1,4 @@
-package com.hiagosouza.api_santander;
+package com.hiagosouza.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
